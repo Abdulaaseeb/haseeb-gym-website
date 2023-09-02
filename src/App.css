@@ -1,38 +1,252 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width: 600px) {
+  #bg-section-img {
+    height: 360vh
+  }
+  #bg-team{
+    height: 120vh;
+  }
+  #bg-team2{
+    height: 120vh;
+  }
+  #bg-team3{
+    height: 120vh;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+
+
+.navbar {
+  background-color: black;
+
+}
+
+.otherlink {
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.otherlink:hover {
+  color: red;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.otherlink:focus {
+  color: red;
+
+}
+
+.link1 {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  margin-right: auto;
+}
+
+.navBtn {
+  padding: 17px 15px !important;
+  border-radius: 0 !important;
+}
+
+.bg-img-hero1 {
+  background-image: url('./images/h1_hero.png.webp');
+  height: 120vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.empty-div {
+  height: 2px;
+  background-color: rgb(234, 74, 74);
+  margin-top: 150px;
+}
+
+.marginTop {
+  margin-top: 140px;
+  color: rgb(234, 74, 74);
+}
+
+.empty-div2 {
+  height: 2px;
+  background-color: rgb(234, 74, 74);
+  margin-top: 140px;
+}
+
+.marginTop2 {
+  margin-top: 130px;
+  color: rgb(234, 74, 74);
+}
+.empty-div3 {
+  height: 2px;
+  background-color: rgb(234, 74, 74);
+  margin-top: 110px;
+}
+.marginTop3 {
+  margin-top: 100px;
+  color: rgb(234, 74, 74);
+}
+.empty-div4{
+  height: 2px;
+  background-color: rgb(248, 18, 18);
+  margin-top: 500px;
+}
+.marginTop4{
+  margin-top: 490px;
+  color: rgb(248, 18, 18);
+}
+
+
+.text-navy {
+  color: rgb(5, 5, 50);
+  font-weight: bolder !important;
+}
+
+
+.bg-section-img {
+  margin-top: 200px;
+  background-image: url('./images/section_bg01.png.webp');
+  height: 150vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.service-btn {
+  margin-top: 50px !important;
+}
+
+
+.service-icon {
+  font-size: 50px !important;
+  color: black !important;
+}
+
+.service-icon:hover {
+  color: red !important;
+
+}
+
+.paraNone {
+  color: white !important;
+    padding: 15px !important;
+}
+
+.service-cart h4:hover {
+  color: red;
+}
+
+.service-cart:hover {
+  background-color: white !important;
+  cursor: pointer;
+  margin-bottom: 12px !important;
+  .paraNone {
+    color: black !important;
+    background-color: rgb(208, 32, 32);
+    transition: all 2ms ease-in-out;
+    color: white !important;
+    text-decoration: none;
   }
-  to {
-    transform: rotate(360deg);
+
+  .service-icon {
+    color: red !important;
   }
+}
+
+.gallery1{
+  height: 500px !important;
+  
+}
+.galleries{
+  height: 100% !important;
+}
+.bg-team{
+  background-image: url("./images/team1.png.webp");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bg-team2{
+  background-image: url("./images/team2.png.webp");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bg-team3{
+  background-image: url("./images/team3.png.webp");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bg-membership{
+  background-image: url('./images/section_bg02.png.webp');
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.schedule-link a{
+  text-decoration: none;
+  color: black;
+}
+.schedule-para{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.schedule-link a:hover{
+  text-decoration: none;
+  background-color: red !important;
+  color: white !important;
+}
+.schedules:hover{
+  text-decoration: none;
+  background-color: red !important;
+  color: white !important;
+}
+.boxing:hover{
+  background-color: red !important;
+  cursor: pointer;
+  .schedule-para{
+    background-color: white;
+    color: black;
+    text-align: center;
+  }
+  .schedule-heading{
+    color: white;
+  }
+  .span-text{
+    color: white !important;
+  }
+}
+
+.empty-div6 {
+  height: 2px;
+  background-color: rgb(234, 74, 74);
+  margin-top: 50px;
+}
+.marginTop6 {
+  margin-top: 40px;
+  color: rgb(234, 74, 74);
+}
+.bg-overlay{
+  background-color: black;
+  height: 70vh;
+  background-size: cover;
+  background-position: fixed;
+  background-attachment: fixed;
+}
+.bg-footer{
+  background-image: url('./images/section_bg03.png.webp');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
